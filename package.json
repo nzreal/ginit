@@ -1,0 +1,40 @@
+{
+  "name": "ginit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "NZ",
+  "license": "MIT",
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "bin": {
+    "ginit": "./index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^14.0.5",
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "configstore": "^3.1.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.0.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.89.0",
+    "touch": "^3.1.0"
+  },
+  "comments": {
+    "@octokit/rest": "Node.js 里的 GitHub REST API 客户端",
+    "chalk": "彩色输出",
+    "clear": "清空命令行屏幕",
+    "clui": "绘制命令行中的表格、仪表盘、加载指示器等",
+    "configstore": "轻松加载和保存配置",
+    "figlet": "^1.2.0",
+    "inquirer": "创建交互式的命令行界面",
+    "lodash": "JavaScript 工具库",
+    "minimist": "解析参数",
+    "simple-git": "在 Node.js 应用程序中运行 Git 命令的工具",
+    "touch": "实现 Unix touch 命令的工具"
+  }
+}
